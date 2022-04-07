@@ -1,0 +1,284 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 8,
+    "passes": 7,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-04-07T04:22:11.005Z",
+    "end": "2022-04-07T04:22:50.069Z",
+    "duration": 21038,
+    "testsRegistered": 8,
+    "passPercent": 87.5,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f0b67424-20f2-46f9-b6bf-e9080554edb9",
+      "title": "",
+      "fullFile": "cypress/fixtures/MakePurshase.feature",
+      "file": "cypress/fixtures/MakePurshase.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "fa788c8e-caf4-4b11-8f0a-cf30c7affc40",
+          "title": "Make Purshase",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Add item to cart (example #1)",
+              "fullTitle": "Make Purshase Add item to cart (example #1)",
+              "timedOut": null,
+              "duration": 3520,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "c6db67e0-2205-466b-bdc0-7eed9882ab06",
+              "parentUUID": "fa788c8e-caf4-4b11-8f0a-cf30c7affc40",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Remove item from cart (example #1)",
+              "fullTitle": "Make Purshase Remove item from cart (example #1)",
+              "timedOut": null,
+              "duration": 6281,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: expected '<button#checkout.btn.btn_action.btn_medium.checkout_button>' to be 'hidden'",
+                "estack": "AssertionError: Timed out retrying after 4000ms: expected '<button#checkout.btn.btn_action.btn_medium.checkout_button>' to be 'hidden'\n    at CartPage.seeHiddenCheckoutButton (https://www.saucedemo.com/__cypress/tests?p=cypress\\fixtures\\MakePurshase.feature:364:42)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress\\fixtures\\MakePurshase.feature:806:12)\n    at Context.resolveAndRunStepDefinition (https://www.saucedemo.com/__cypress/tests?p=cypress\\fixtures\\MakePurshase.feature:19248:29)\n    at Context.eval (https://www.saucedemo.com/__cypress/tests?p=cypress\\fixtures\\MakePurshase.feature:18569:35)",
+                "diff": null
+              },
+              "uuid": "6d1ce308-7567-44ba-bea3-b85209c55026",
+              "parentUUID": "fa788c8e-caf4-4b11-8f0a-cf30c7affc40",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c6db67e0-2205-466b-bdc0-7eed9882ab06"
+          ],
+          "failures": [
+            "6d1ce308-7567-44ba-bea3-b85209c55026"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 9801,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "11a7f2ab-24e0-4beb-b3d6-bbbc4b25cf8c",
+      "title": "",
+      "fullFile": "cypress/fixtures/LoginTest.feature",
+      "file": "cypress/fixtures/LoginTest.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0a018aaa-31b9-4b9c-a1a4-64af8b5cd524",
+          "title": "Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "LoginTest (example #1)",
+              "fullTitle": "Login LoginTest (example #1)",
+              "timedOut": null,
+              "duration": 1335,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "f324159d-aad6-4e35-b4e3-d94d59dc40d2",
+              "parentUUID": "0a018aaa-31b9-4b9c-a1a4-64af8b5cd524",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "LoginTest (example #2)",
+              "fullTitle": "Login LoginTest (example #2)",
+              "timedOut": null,
+              "duration": 913,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "0e2e7801-d143-463d-815f-0f8b06cf4705",
+              "parentUUID": "0a018aaa-31b9-4b9c-a1a4-64af8b5cd524",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "LoginTest (example #3)",
+              "fullTitle": "Login LoginTest (example #3)",
+              "timedOut": null,
+              "duration": 878,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "797032fc-4c3d-4b8d-b305-8dec75b4c3d5",
+              "parentUUID": "0a018aaa-31b9-4b9c-a1a4-64af8b5cd524",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "LoginTest (example #4)",
+              "fullTitle": "Login LoginTest (example #4)",
+              "timedOut": null,
+              "duration": 1000,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "e24d063a-e1fb-47a1-a02b-8346f42f2140",
+              "parentUUID": "0a018aaa-31b9-4b9c-a1a4-64af8b5cd524",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "LoginTest (example #5)",
+              "fullTitle": "Login LoginTest (example #5)",
+              "timedOut": null,
+              "duration": 6388,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "c090def1-2fc5-4038-8c2c-a0e2dfa0253d",
+              "parentUUID": "0a018aaa-31b9-4b9c-a1a4-64af8b5cd524",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "LoginTest (example #6)",
+              "fullTitle": "Login LoginTest (example #6)",
+              "timedOut": null,
+              "duration": 723,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "c238e856-2f6c-4637-92a7-4dee62d42c06",
+              "parentUUID": "0a018aaa-31b9-4b9c-a1a4-64af8b5cd524",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "f324159d-aad6-4e35-b4e3-d94d59dc40d2",
+            "0e2e7801-d143-463d-815f-0f8b06cf4705",
+            "797032fc-4c3d-4b8d-b305-8dec75b4c3d5",
+            "e24d063a-e1fb-47a1-a02b-8346f42f2140",
+            "c090def1-2fc5-4038-8c2c-a0e2dfa0253d",
+            "c238e856-2f6c-4637-92a7-4dee62d42c06"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11237,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
