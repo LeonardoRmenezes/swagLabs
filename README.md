@@ -11,14 +11,14 @@ De acordo com o solicitado foram construídos 2 cenários de testes: <br>
 Instalação do nodejs
 
 <h3> 🛠️ Instalação </h3>
-Para a implementação do projeto foi utilizado os plugins: <br>
+Alguns dos princiapais plugins que foram utilizados para a implementação do projet: <br>
   🥒 cucumber - para permitir trabalhar com gherkin (bdd) <br>
   🎲 chancejs - para gerar os dados fictícios de nome, sobrenome e CEP. <br>
   📑 mochawesome - para geração do relatório 
 
 <h3>⚙️ Executar os testes </h3>
-👉Command Line: npm run test (recomendo - no final dos testes o relatório é exibido automaticamente) <br>
-👉Gerenciador de testes: npx cypress open 
+👉 Command Line: npm run test (recomendo - no final dos testes o relatório é exibido automaticamente) <br>
+👉 Gerenciador de testes: npx cypress open 
   
 
   
