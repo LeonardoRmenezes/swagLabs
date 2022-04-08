@@ -11,6 +11,9 @@ De acordo com o solicitado foram construídos 2 cenários de testes: <br>
 Instalação do nodejs
 
 <h3> 🛠️ Instalação </h3>
+   1. Após clonar o projeto - git clone https://github.com/LeonardoRmenezes/swaglabs.git <br>
+   2. Acessar pasta do projeto - executar <text color="FF0000">npm i</font>. <br>
+   
 Alguns dos princiapais plugins que foram utilizados para a implementação do projet: <br>
   🥒 cucumber - para permitir trabalhar com gherkin (bdd) <br>
   🎲 chancejs - para gerar os dados fictícios de nome, sobrenome e CEP. <br>
