@@ -7,22 +7,26 @@ De acordo com o solicitado foram construídos 2 cenários de testes: <br>
 👉 Login <br>
 👉 Realizar Compra
    
-<h3> 📋 Pré Requisitos </h3>
-Instalação do nodejs
 
-<h3> 🛠️ Instalação </h3>
-   1. Após clonar o projeto - git clone https://github.com/LeonardoRmenezes/swaglabs.git <br>
-   2. Acessar pasta do projeto - executar <text color="FF0000">npm i</font>. <br>
-   
-Alguns dos princiapais plugins que foram utilizados para a implementação do projet: <br>
+<h3> 📋 Pré Requisitos </h3>
+Nenhum específico.
+
+
+<h3> 🔌 Plugins </h3>
+Alguns dos princiapais plugins que foram utilizados para a implementação do projeto: <br>
   🥒 cucumber - para permitir trabalhar com gherkin (bdd) <br>
   🎲 chancejs - para gerar os dados fictícios de nome, sobrenome e CEP. <br>
   📑 mochawesome - para geração do relatório 
 
-<h3>⚙️ Executar os testes </h3>
+
+<h3> 🛠️ Instalação </h3>
+   1. Após clonar o projeto - git clone https://github.com/LeonardoRmenezes/swaglabs.git <br>
+   2. Acessar pasta do projeto - executar <text color="FF0000">npm i</font>.
+
+
+<h3> ⚙️ Executar os testes </h3>
 👉 Command Line: npm run test (recomendo - no final dos testes o relatório é exibido automaticamente) <br>
-👉 Gerenciador de testes: npx cypress open 
-  
+👉 Gerenciador de testes: npx cypress open
 
   
 <h3>🎁 Agradecimento 🎉</h3>
