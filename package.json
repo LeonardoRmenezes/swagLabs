@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "i": "npm install --dev" ,
     "clean": "rimraf cypress/reports/mocha",
     "pretest": "npm run clean",
     "scripts": "cypress run",
